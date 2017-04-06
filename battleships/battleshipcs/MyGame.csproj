@@ -8,11 +8,11 @@
     <ProjectGuid>{A482CE99-CCB9-462A-8D2A-2A6D4619BC98}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyGame</RootNamespace>
+    <RootNamespace>Battleship</RootNamespace>
     <AssemblyName>MyGame</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>MyGame.GameMain</StartupObject>
+    <StartupObject>Battleship.GameMain</StartupObject>
     <ApplicationIcon>Resources\SwinGame.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>

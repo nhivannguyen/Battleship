@@ -1,8 +1,9 @@
-﻿using SwinGameSDK;
+﻿using System;
+using SwinGameSDK;
 
 namespace Battleship
 {
-    internal static class GameLogic
+    static class GameMain
     {
         public static void Main()
         {
