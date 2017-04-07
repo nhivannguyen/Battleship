@@ -46,6 +46,7 @@ namespace Battleship
 	    public Player(BattleShipsGame controller)
 	    {
 		    _game = controller;
+            InitInstance();
 
 		    //for each ship add the ships name so the seagrid knows about them
 		    foreach (ShipName name in Enum.GetValues(typeof(ShipName))) {
