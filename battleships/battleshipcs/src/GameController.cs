@@ -333,7 +333,7 @@ namespace Battleship
 
 		    UtilityFunctions.DrawAnimations();
 
-		    SwinGame.RefreshScreen();
+		    SwinGame.RefreshScreen(60);
 	    }
 
 	    /// <summary>
