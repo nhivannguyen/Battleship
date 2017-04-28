@@ -59,7 +59,7 @@ namespace Battleship
 		    string filename = null;
 		    filename = SwinGame.PathToResource("highscores.txt");
 
-		    StreamReader input = null;
+			StreamReader input = default(StreamReader);
 		    input = new StreamReader(filename);
 
 		    //Read in the # of scores
@@ -98,7 +98,7 @@ namespace Battleship
 		    string filename = null;
 		    filename = SwinGame.PathToResource("highscores.txt");
 
-		    StreamWriter output = null;
+			StreamWriter output = default(StreamWriter);
 		    output = new StreamWriter(filename);
 
 		    output.WriteLine(_Scores.Count);
