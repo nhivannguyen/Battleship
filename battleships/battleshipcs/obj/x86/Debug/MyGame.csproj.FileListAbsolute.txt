@@ -62,3 +62,6 @@ C:\Users\Minura\OneDrive\Swinburne\Semester5\DP1\Battleship\Battleship\battleshi
 C:\Users\Minura\OneDrive\Swinburne\Semester5\DP1\Battleship\Battleship\battleships\battleshipcs\obj\x86\Debug\MyGame.exe
 C:\Users\Minura\OneDrive\Swinburne\Semester5\DP1\Battleship\Battleship\battleships\battleshipcs\obj\x86\Debug\MyGame.pdb
 C:\Users\Minura\OneDrive\Swinburne\Semester5\DP1\Battleship\Battleship\battleships\battleshipcs\bin\Debug\Resources\sounds\The Pink Panther Theme Song (Original Version).mp3
+P:\code\Git\Battleship\battleships\battleshipcs\bin\Debug\MyGame.exe.config
+P:\code\Git\Battleship\battleships\battleshipcs\obj\x86\Debug\MyGame.exe
+P:\code\Git\Battleship\battleships\battleshipcs\obj\x86\Debug\MyGame.pdb
