@@ -154,7 +154,7 @@ public static class GameResources
     {
         _Background = SwinGame.LoadBitmap(SwinGame.PathToResource("SplashBack.png", ResourceKind.BitmapResource));
         SwinGame.DrawBitmap(_Background, 0, 0);
-        SwinGame.RefreshScreen();
+        SwinGame.RefreshScreen(60);
         SwinGame.ProcessEvents();
 
         _Animation = SwinGame.LoadBitmap(SwinGame.PathToResource("SwinGameAni.jpg", ResourceKind.BitmapResource));
@@ -185,7 +185,7 @@ public static class GameResources
             SwinGame.DrawBitmap(_Background, 0, 0);
             SwinGame.DrawBitmapPart(_Animation, (i / ANI_V_CELL_COUNT) * ANI_W, (i % ANI_V_CELL_COUNT) * ANI_H, ANI_W, ANI_H, ANI_X, ANI_Y);
             SwinGame.Delay(20);
-            SwinGame.RefreshScreen();
+            SwinGame.RefreshScreen(60);
             SwinGame.ProcessEvents();
         }
 
@@ -210,7 +210,7 @@ public static class GameResources
 
         SwinGame.DrawTextLines(message, Color.White, Color.Transparent, _LoadingFont, FontAlignment.AlignCenter, TX, TY, TW, TH);
 
-        SwinGame.RefreshScreen();
+        SwinGame.RefreshScreen(60);
         SwinGame.ProcessEvents();
     }
 
@@ -219,7 +219,7 @@ public static class GameResources
         SwinGame.ProcessEvents();
         SwinGame.Delay(500);
         SwinGame.ClearScreen();
-        SwinGame.RefreshScreen();
+        SwinGame.RefreshScreen(60);
         SwinGame.FreeFont(_LoadingFont);
         SwinGame.FreeBitmap(_Background);
         SwinGame.FreeBitmap(_Animation);

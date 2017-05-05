@@ -142,7 +142,7 @@ namespace Battleship
 
                 SwinGame.Delay(5);
                 SwinGame.ProcessEvents();
-                SwinGame.RefreshScreen();
+                SwinGame.RefreshScreen(60);
             }
         }
     }

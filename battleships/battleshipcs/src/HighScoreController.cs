@@ -184,7 +184,7 @@ namespace Battleship
 				    UtilityFunctions.DrawBackground();
 				    DrawHighScores();
 				    SwinGame.DrawText("Name: ", Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, ENTRY_TOP);
-				    SwinGame.RefreshScreen();
+				    SwinGame.RefreshScreen(60);
 			    }
 
 			    s.Name = SwinGame.TextReadAsASCII();
@@ -196,6 +196,7 @@ namespace Battleship
 			    _Scores.RemoveAt(_Scores.Count - 1);
 			    _Scores.Add(s);
 			    _Scores.Sort();
+                SaveScores();
 
 			    GameController.EndCurrentState();
 		    }

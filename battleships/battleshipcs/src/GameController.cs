@@ -113,7 +113,7 @@ namespace Battleship
 	    private static void GridChanged(object sender, EventArgs args)
 	    {
 		    DrawScreen();
-		    SwinGame.RefreshScreen();
+		    SwinGame.RefreshScreen(60);
 	    }
 
 	    private static void PlayHitSequence(int row, int column, bool showAnimation)
@@ -169,7 +169,7 @@ namespace Battleship
 
 				    while (Audio.SoundEffectPlaying(GameResources.GameSound("Sink"))) {
 					    SwinGame.Delay(10);
-					    SwinGame.RefreshScreen();
+					    SwinGame.RefreshScreen(60);
 				    }
 
 				    if (HumanPlayer.IsDestroyed) {
