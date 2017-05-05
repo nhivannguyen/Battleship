@@ -61,7 +61,10 @@ namespace Battleship
             /// <returns>true if location 1 and location 2 are at the same spot</returns>
             public static bool operator ==(Location @this, Location other)
             {
-                return !object.ReferenceEquals(@this, null) && !object.ReferenceEquals(other, null) && @this.Row == other.Row && @this.Column == other.Column;
+                if (!object.ReferenceEquals(@this, null) && !object.ReferenceEquals(other, null))
+                    return @this.Row == other.Row && @this.Column == other.Column;
+
+                return false;
             }
 
             /// <summary>
@@ -72,7 +75,10 @@ namespace Battleship
             /// <returns>true if location 1 and location 2 are not at the same spot</returns>
             public static bool operator !=(Location @this, Location other)
             {
-                return object.ReferenceEquals(@this, null) && object.ReferenceEquals(other, null) || @this.Row != other.Row || @this.Column != other.Column;
+                if (!object.ReferenceEquals(@this, null) && !object.ReferenceEquals(other, null))
+                    return @this.Row != other.Row && @this.Column != other.Column;
+
+                return true;
             }
         }
 
