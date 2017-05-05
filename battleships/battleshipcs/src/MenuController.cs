@@ -136,8 +136,8 @@ namespace Battleship
 	    /// </summary>
 	    public static void DrawMainMenu()
 	    {
-		    //Clears the Screen to Black
-		    SwinGame.DrawText("Main Menu", Color.White, GameFont("ArialLarge"), 50, 50)
+            //Clears the Screen to Black
+            //SwinGame.DrawText("Main Menu", Color.White, GameFont("ArialLarge"), 50, 50);
 
 		    DrawButtons(MAIN_MENU);
 	    }
@@ -147,8 +147,8 @@ namespace Battleship
 	    /// </summary>
 	    public static void DrawGameMenu()
 	    {
-		    //Clears the Screen to Black
-		    SwinGame.DrawText("Paused", Color.White, GameFont("ArialLarge"), 50, 50)
+            //Clears the Screen to Black
+            //SwinGame.DrawText("Paused", Color.White, GameFont("ArialLarge"), 50, 50);
 
 		    DrawButtons(GAME_MENU);
 	    }
@@ -161,8 +161,8 @@ namespace Battleship
 	    /// </remarks>
 	    public static void DrawSettings()
 	    {
-		    //Clears the Screen to Black
-		    SwinGame.DrawText("Settings", Color.White, GameFont("ArialLarge"), 50, 50)
+            //Clears the Screen to Black
+            //SwinGame.DrawText("Settings", Color.White, GameFont("ArialLarge"), 50, 50);
 
 		    DrawButtons(MAIN_MENU);
 		    DrawButtons(SETUP_MENU, 1, 1);
