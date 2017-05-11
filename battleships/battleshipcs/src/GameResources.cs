@@ -52,7 +52,7 @@ public static class GameResources
 
     private static void LoadMusic()
     {
-        NewMusic("Background", "The Pink Panther Theme Song (Original Version).mp3");
+        NewMusic("Background", "horrordrone.mp3");
     }
 
     /// <summary>
